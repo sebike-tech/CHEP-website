@@ -123,3 +123,23 @@ body {
     background: linear-gradient(180deg, #e9f1e7 0%, #f6f3ec 100%);
     overflow-x: hidden;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1e2a22;
+    overflow-x: hidden;
+
+    background:
+        radial-gradient(circle at 20% 30%, rgba(107,142,35,0.15), transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(74,124,89,0.15), transparent 40%),
+        linear-gradient(135deg, #e6f0ea 0%, #f7f3ec 100%);
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/white-paper.png");
+    opacity: 0.15;
+    pointer-events: none;
+}
