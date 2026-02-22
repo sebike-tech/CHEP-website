@@ -123,3 +123,37 @@ body {
     background: linear-gradient(180deg, #e9f1e7 0%, #f6f3ec 100%);
     overflow-x: hidden;
 }
+
+.bg-shape {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(90px);
+    z-index: -1;
+}
+
+.shape1 {
+    width: 300px;
+    height: 300px;
+    background: #b7d3b0;
+    top: -100px;
+    left: -100px;
+}
+
+.shape2 {
+    width: 250px;
+    height: 250px;
+    background: #d8e6c9;
+    bottom: -80px;
+    right: -80px;
+}
+
+section {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 35px;
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    position: relative;
+}
