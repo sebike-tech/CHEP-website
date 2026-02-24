@@ -144,22 +144,28 @@ body::after {
     pointer-events: none;
 }
 
+/* ===== MOBIL GLOBAL FONT SCALE FIX ===== */
 @media (max-width: 768px) {
 
     body {
-        font-size: 1.15em;
+        font-size: 18px !important;
     }
 
     header h1 {
-        font-size: 42px;
+        font-size: 40px !important;
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 24px !important;
+    }
+
+    p {
+        font-size: 17px !important;
+        line-height: 1.8 !important;
     }
 
     th, td {
-        font-size: 18px;
+        font-size: 17px !important;
     }
 
 }
