@@ -143,3 +143,9 @@ body::after {
     opacity: 0.15;
     pointer-events: none;
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 112%;
+    }
+}
