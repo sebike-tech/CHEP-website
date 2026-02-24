@@ -169,3 +169,8 @@ body::after {
     }
 
 }
+@media (max-width: 768px) {
+    * {
+        font-size: 110% !important;
+    }
+}
